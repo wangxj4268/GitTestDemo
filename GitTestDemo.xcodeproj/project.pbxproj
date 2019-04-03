@@ -13,7 +13,9 @@
 		0D586D062254545900FD6590 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D586D052254545900FD6590 /* Assets.xcassets */; };
 		0D586D092254545900FD6590 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D586D072254545900FD6590 /* LaunchScreen.storyboard */; };
 		0D586D0C2254545900FD6590 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D586D0B2254545900FD6590 /* main.m */; };
-		0D586D152254607E00FD6590 /* ViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D586D142254607E00FD6590 /* ViewController3.m */; };
+		0D586D1C2254A08300FD6590 /* CALayer+Aimate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D586D172254A08300FD6590 /* CALayer+Aimate.m */; };
+		0D586D1D2254A08300FD6590 /* FDanmakuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D586D1B2254A08300FD6590 /* FDanmakuView.m */; };
+		0D586D202254A0C500FD6590 /* FDanmakuModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D586D1E2254A0C500FD6590 /* FDanmakuModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +29,13 @@
 		0D586D082254545900FD6590 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0D586D0A2254545900FD6590 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0D586D0B2254545900FD6590 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0D586D132254607E00FD6590 /* ViewController3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController3.h; sourceTree = "<group>"; };
-		0D586D142254607E00FD6590 /* ViewController3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController3.m; sourceTree = "<group>"; };
+		0D586D172254A08300FD6590 /* CALayer+Aimate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+Aimate.m"; sourceTree = "<group>"; };
+		0D586D182254A08300FD6590 /* FDanmakuModelProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDanmakuModelProtocol.h; sourceTree = "<group>"; };
+		0D586D192254A08300FD6590 /* FDanmakuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDanmakuView.h; sourceTree = "<group>"; };
+		0D586D1A2254A08300FD6590 /* CALayer+Aimate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+Aimate.h"; sourceTree = "<group>"; };
+		0D586D1B2254A08300FD6590 /* FDanmakuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDanmakuView.m; sourceTree = "<group>"; };
+		0D586D1E2254A0C500FD6590 /* FDanmakuModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDanmakuModel.m; sourceTree = "<group>"; };
+		0D586D1F2254A0C500FD6590 /* FDanmakuModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDanmakuModel.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +68,7 @@
 		0D586CFB2254545900FD6590 /* GitTestDemo */ = {
 			isa = PBXGroup;
 			children = (
-				0D586D122254601200FD6590 /* Model */,
+				0D586D162254A08300FD6590 /* DanmakuView */,
 				0D586CFC2254545900FD6590 /* AppDelegate.h */,
 				0D586CFD2254545900FD6590 /* AppDelegate.m */,
 				0D586CFF2254545900FD6590 /* ViewController.h */,
@@ -75,13 +82,18 @@
 			path = GitTestDemo;
 			sourceTree = "<group>";
 		};
-		0D586D122254601200FD6590 /* Model */ = {
+		0D586D162254A08300FD6590 /* DanmakuView */ = {
 			isa = PBXGroup;
 			children = (
-				0D586D132254607E00FD6590 /* ViewController3.h */,
-				0D586D142254607E00FD6590 /* ViewController3.m */,
+				0D586D1F2254A0C500FD6590 /* FDanmakuModel.h */,
+				0D586D1E2254A0C500FD6590 /* FDanmakuModel.m */,
+				0D586D1A2254A08300FD6590 /* CALayer+Aimate.h */,
+				0D586D172254A08300FD6590 /* CALayer+Aimate.m */,
+				0D586D182254A08300FD6590 /* FDanmakuModelProtocol.h */,
+				0D586D192254A08300FD6590 /* FDanmakuView.h */,
+				0D586D1B2254A08300FD6590 /* FDanmakuView.m */,
 			);
-			path = Model;
+			path = DanmakuView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,7 +169,9 @@
 			files = (
 				0D586D012254545900FD6590 /* ViewController.m in Sources */,
 				0D586D0C2254545900FD6590 /* main.m in Sources */,
-				0D586D152254607E00FD6590 /* ViewController3.m in Sources */,
+				0D586D1D2254A08300FD6590 /* FDanmakuView.m in Sources */,
+				0D586D1C2254A08300FD6590 /* CALayer+Aimate.m in Sources */,
+				0D586D202254A0C500FD6590 /* FDanmakuModel.m in Sources */,
 				0D586CFE2254545900FD6590 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
