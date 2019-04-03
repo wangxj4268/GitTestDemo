@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController3 : ViewController2
+@interface ViewController3 : UIViewController
 
 @end
