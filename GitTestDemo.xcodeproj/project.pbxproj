@@ -13,6 +13,7 @@
 		0D586D062254545900FD6590 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D586D052254545900FD6590 /* Assets.xcassets */; };
 		0D586D092254545900FD6590 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D586D072254545900FD6590 /* LaunchScreen.storyboard */; };
 		0D586D0C2254545900FD6590 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D586D0B2254545900FD6590 /* main.m */; };
+		0D586D152254607E00FD6590 /* ViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D586D142254607E00FD6590 /* ViewController3.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		0D586D082254545900FD6590 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0D586D0A2254545900FD6590 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0D586D0B2254545900FD6590 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0D586D132254607E00FD6590 /* ViewController3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController3.h; sourceTree = "<group>"; };
+		0D586D142254607E00FD6590 /* ViewController3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController3.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +78,8 @@
 		0D586D122254601200FD6590 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				0D586D132254607E00FD6590 /* ViewController3.h */,
+				0D586D142254607E00FD6590 /* ViewController3.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -152,6 +157,7 @@
 			files = (
 				0D586D012254545900FD6590 /* ViewController.m in Sources */,
 				0D586D0C2254545900FD6590 /* main.m in Sources */,
+				0D586D152254607E00FD6590 /* ViewController3.m in Sources */,
 				0D586CFE2254545900FD6590 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
