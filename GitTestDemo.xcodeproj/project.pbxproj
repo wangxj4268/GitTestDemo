@@ -58,6 +58,7 @@
 		0D586CFB2254545900FD6590 /* GitTestDemo */ = {
 			isa = PBXGroup;
 			children = (
+				0D586D122254601200FD6590 /* Model */,
 				0D586CFC2254545900FD6590 /* AppDelegate.h */,
 				0D586CFD2254545900FD6590 /* AppDelegate.m */,
 				0D586CFF2254545900FD6590 /* ViewController.h */,
@@ -69,6 +70,13 @@
 				0D586D0B2254545900FD6590 /* main.m */,
 			);
 			path = GitTestDemo;
+			sourceTree = "<group>";
+		};
+		0D586D122254601200FD6590 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
