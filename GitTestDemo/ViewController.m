@@ -22,7 +22,7 @@
 }
 
 - (void)createUI{
-    
+    NSLog(@"111");
 };
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
