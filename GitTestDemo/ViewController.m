@@ -19,6 +19,7 @@
     
     self.view.backgroundColor = [UIColor grayColor];
     self.automaticallyAdjustsScrollViewInsets = NO;
+    [self createUI];
 }
 
 - (void)createUI{
